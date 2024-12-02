@@ -40,6 +40,30 @@ python train.py --epochs 100 --batch-size 16 --learning-rate 0.001 --momentum 0.
 *   **Comment:** Lowering the learning rate and increasing epochs with a smaller batch size may improve accuracy but could also lead to longer training times.
 ![](command_3.png)
 
+## Comparison and Analysis
+
+| Parameter            | Experiment 1  | Experiment 2  | Experiment 3  |
+|----------------------|---------------|---------------|---------------|
+| **Epochs**           | 50            | 75            | 100           |
+| **Batch Size**       | 32            | 64            | 16            |
+| **Learning Rate**    | 0.005         | 0.01          | 0.001         |
+| **Momentum**         | 0.7           | 0.9           | 0.85          |
+| **Final Loss**       | TBD           | TBD           | TBD           |
+| **Final Accuracy**   | TBD           | TBD           | TBD           |
+| **Training Time**    | TBD           | TBD           | TBD           |
+
+### Key Insights:
+
+#### Optimal Configuration:
+Describe the best-performing configuration and why it stood out.
+
+#### Impact of Learning Rate:
+Explain how different learning rates affected the performance.
+
+#### Effect of Epochs and Batch Size:
+Discuss their influence on training dynamics.
+
+
 
 # Overall, MLFlow is great for following reasons:
 
